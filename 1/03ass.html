@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card</title>
+    <style type = "text/css">
+    body{
+        background-color: #f0f0f5;
+    }
+    .card{
+        background-color:white;
+        position: relative;
+        border-radius: 10px;
+        top:50px;
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 2px 3px 0px #d9d9d9;
+        border-bottom:solid 2px #8c8c8c;
+        padding:20px;
+        height:600px;
+    }
+    .icon{
+        position:relative;
+        left:-90px;
+        top:-55px;
+    }
+    .name{
+        font-weight: normal;
+        font-size: 18px;
+        padding-left: 100px;
+        margin: 0px;
+        display:flex;
+    }
+    .time{
+        color:grey;
+        font-weight:normal;
+        padding-top: 0px;
+        padding-left:100px;
+        font-size:18px;
+        margin: 0px;
+        display: flex;
+    }
+    .text{
+        color:grey;
+        display: flex;
+        font-size: 18px;
+        position: relative;
+        top:-135px;
+    }
+    .icon_word{
+        position:relative;
+        left:-279px;
+        top:-111px;
+        font-size: 25px;
+        color:white;
+    }
+    .heading__more{
+        position:relative;
+        top:-150px;
+        left:455px;
+        border-color: white;
+        width:80px;
+        height:80px;
+        border-radius: 40px;
+        border:0px;
+    }
+    .main_body__graph{
+        max-width: 107.6%;
+        position: relative;
+        left:-20px;
+        top:-140px;
+    }
+    .heart{
+        border:0px;
+        background-color:white;
+        margin-top: -100px;
+        width:80px;
+        height: 80px;
+        border-radius: 40px;   
+        position: relative;
+        top:-125px;
+    }
+    .share{
+        background-color: white;
+        border:0px;
+        position: relative;
+        stroke-width: 3px;
+        stroke:grey;
+        width:80px;
+        height:80px;
+        border-radius: 40px;
+        top:-111px;
+    }
+    .foot__more{
+        stroke:grey;
+        stroke-width: 4px;
+        border-radius: 40px;
+        width:80px;
+        height: 80px;
+        background-color: white;
+        position: relative;
+        top:-133px;
+        left:275px;
+        border:0px;
+    }
+    button:hover{
+        background-color: #e6e6e6;
+    </style>
+</head>
+<body>
+    <section class = "card">
+        <section class = "heading">
+            <h1 class = "name">Shrimp and Chorizo Paella</h1>
+            <h2 class = "time">September 14,2016</h2>
+            <button class = "heading__more">
+                <svg xmlns="http://www.w3.org/2000/svg" version = "1.1" width = "20" height = "50">
+                <circle cx = "10" cy = "26" r = "3" fill = "#666666"></circle>
+                <circle cx = "10" cy = "17" r = "3" fill = "#666666"></circle>
+                <circle cx = "10" cy = "35" r = "3" fill = "#666666"></circle>
+                </svg>
+            </button>
+            <span class = "icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <circle cx="30" cy="30" r="26" fill="#ff3333" />
+             </svg><span class = "icon_word">R</span></span>
+        </section>
+        <section class = “main_body">
+            <img class = "main_body__graph" src = "/Users/xiaoronglin/Desktop/1/截屏2020-01-11下午12.16.24.png"/>
+            <p class = "text">This impressive paella is a perfect party dish and a fun meal to cook together with your guests.
+                <br>Add 1 cup of frozen peas along with the mussels, if you like.</p>
+        </section>
+        <section class = foot>
+            <footer>
+                <button class = "heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="45" fill = "grey" viewBox="0 -3 24 24"><path d="M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z"/></svg>
+                 </button>
+                <button class = "share"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" version = "1.1" viewBox = "-8 -3 70 70">
+                        <circle cx = "15" cy = "33" r = "4" fill = "grey"></circle>
+                        <line x1 = "15" y1 = "33" x2 = "35" y2 = "20"></line>
+                        <circle cx = "35" cy = "20" r = "4" fill = "grey"></circle>
+                        <line x1 = "15" y1 = "33" x2 = "35" y2 = "46" fill = "grey"></line>
+                        <circle cx = "35" cy = "46" r = "4" fill = "grey"></circle>
+                    </svg>
+                </button>
+                <button class = "foot__more">
+                    <svg xmlns="http://www.w3.org/2000/svg" version = "1.1" width = "30" height = "30">
+                        <line x1 = "4" y1 = "11" x2 = "16" y2 = "23"></line>    
+                        <line x1 = "14" y1 = "23" x2 = "26" y2 = "11"></line>
+                    </svg>
+                </button>
+            </footer>
+        </section>
+    </section>
+</body>
+</html>
